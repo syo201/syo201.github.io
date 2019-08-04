@@ -1,0 +1,386 @@
+/* 共通のレイアウト */
+
+html,body,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+p,form,input,div{
+  margin:0;
+  padding:0;
+}
+body{
+  font-size:14px;
+  color:#888;
+  font-weight:400;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration:none;
+  color: #323a45
+  transition:all .3s;
+}
+a:hover{
+  color:#0dc0c0;
+  text-decoration: none;
+}
+h2,h2,h3,h4,h5,h6{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h4,h5{
+  color: #444;
+  font-size: 18px;
+}
+
+.section-title{
+  color: #555;
+  padding-top: 70px;
+  text-align: center;
+}
+.section-title h3{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+/*header*/
+
+header{
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  background-color: #fff;
+  line-height: 50px;
+  border-bottom: 1px; solid #eee;
+  z-index: 10;
+}
+.header-left{
+  float:left;
+}
+.header-logo{
+  color: #777;
+  font-weight: 700;
+  font-size: 22px;
+}
+.header-right{
+  float: right;
+}
+.header-right li{
+  float: left;
+}
+
+.header-right a{
+  padding-left: 20px;
+}
+
+.header-right a:hover{
+  color: #0dc0c0;
+  transition: all .3s;
+}
+
+/* ここからtop-section */
+
+.top-section{
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-image: url("https://www.pakutaso.com/shared/img/thumb/NKJ56_commandmba_TP_V.jpg");
+  background-size: cover;
+}
+.inner-bg{
+  background-color: rgba(0, 0, 0, 4);
+  padding-top: 210px;
+  padding-bottom: 120px;
+}
+.top-description{
+  margin-bottom: 20px;
+  display: none;
+}
+.top-description h2{
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.top-description p{
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn:hover{
+  color: #fff;
+}
+.btn-top-white{
+  background: #55acee;
+  border:2px solid rgba(250, 250, 250, 0.15);
+  color:rgba(250, 250, 250, 0.8);
+}
+.btn-top-white:hover{
+  border:1px solid rgba(250, 250, 250, 0.8);
+}
+
+/* language */
+
+.language-practice{
+  text-align: center;
+  padding-bottom: 80px;
+  color: #5e6f84;
+}
+
+.slide-top{
+  width:100%;
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.index-btn{
+  display: inline-block;
+  color: white;
+  margin:0 17px;
+  border:1px solid #eee;
+  padding: 5px 10px;
+  font-size: 25px;
+  border-radius: 4px;
+
+}
+.index-btn:hover{
+  cursor: pointer;
+}
+.html{
+  background-color: rgba(0, 255, 255, 0.7);
+}
+.html:hover{
+  background-color: rgba(0, 255, 255, 1);
+}
+.js{
+  background-color: rgba(255, 255, 0, 0.7);
+}
+.js:hover{
+  background-color: rgba(255, 255, 0, 1);
+}
+.jquery{
+    background-color: rgba(255, 150, 0, 0.7);
+}
+.jquery:hover{
+    background-color: rgba(255, 150, 0, 1);
+}
+.php{
+    background-color: rgba(255, 0, 255, 0.7);
+}
+.php:hover{
+    background-color: rgba(255, 0, 255, 1);
+}
+.ruby{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+.ruby:hover{
+    background-color: rgba(255, 0, 0, 1);
+}
+.rails{
+    background-color: rgba(255, 0, 150, 0.7);
+}
+.rails:hover{
+    background-color: rgba(255, 0, 150, 1);
+}
+.language-item{
+  text-align: center;
+  display: none;
+}
+.active{
+  display: none;
+}
+.language-item h2{
+  font-size: 40px;
+  padding: 30px 0;
+}
+.language-item p{
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.header-right-iphone{
+  text-align: center;
+  float: right;
+  width: 80px;
+  display: none;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+.menu-icon{
+  font-size: 12px;
+  cursor:pointer;
+}
+.menu-list{
+  display: none;
+  font-size: 8px;
+  color:white;
+}
+.menu-list li{
+  padding: 0 0;
+  color:white;
+}
+
+/* feature */
+
+.features-section-top{
+  text-align: center;
+  height:100px;
+  border-top: 1px solid gray;
+}
+
+.features-section-bottom{
+  padding-top: 80px;
+}
+
+.features-box{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* price */
+
+.padding-section{
+  padding-bottom: 100px;
+  border-top: 1px solid gray;
+  clear:left;
+  height:500px;
+}
+
+.price-columns{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.price-column{
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  width: 40%;
+  margin: 0 30px;
+  margin-top: 40px;
+}
+.price-column h2{
+  color: #fff;
+  font-size: 20px;
+  background: #323a45;
+  padding: 30px 0;
+}
+
+.price-column-green h2{
+  background: #0dc0c0;
+}
+.price-column h3{
+  color: #555;
+  background: #f0f0f0;
+  margin-top: 0;
+  margin-top: 0;
+  padding: 20px 0;
+  font-size: 20px;
+  border-top:1px solid gray;
+}
+
+.btn-price{
+  text-align: center;
+}
+
+/* message */
+
+.message-section{
+  color: rgba(0, 0, 0, 0.6);
+  background-image: url("https://cdn.pixabay.com/photo/2019/07/03/16/38/light-bulb-4314993_1280.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.message-section-inner{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding:100px 0;
+}
+.message-section h4{
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* contact */
+
+.contact-section{
+  background: url("https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_1280.jpg")
+  background-size:cover;
+  color: white;
+}
+.contact-section-inner{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 70px;
+}
+.contact-section h3, .contact-section h4{
+  color: white;
+}
+.contact-section h4{
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+input[type="text"],textarea{
+  margin: 0;
+  vertical-align: middle;
+  background: rgba(250, 250, 250, 0.08);
+  border: none;
+  width:85%;
+  color: white;
+  font-family: 'Open sans' ,sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all .3s;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+textarea{
+  height: 150px;
+}
+
+.contact-form{
+  text-align: left;
+}
+
+.btn-contact{
+  font-family: sans-serif,'Dosis';
+  font-size: 18px;
+  font-weight: 600;
+  background: #0dc0c0;
+  border: 1px solid #09b1b9;
+  color: white;
+  box-shadow: 01px 0 rgba(0, 0, 0, 0.1);
+  transition: all .3s;
+  margin:10px 0;
+  padding: 15px 35px;
+  display: block;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  padding: 40px 0;
+  background: #222;
+}
