@@ -93,7 +93,7 @@ header{
   margin: 0 auto;
   text-align: center;
   color: white;
-  background-image: url("https://www.pakutaso.com/shared/img/thumb/NKJ56_commandmba_TP_V.jpg");
+  background-image: url("computer-1185626_1280.jpg");
   background-size: cover;
 }
 .inner-bg{
@@ -298,14 +298,14 @@ header{
 }
 
 .btn-price{
-  text-align: center;
+  text-align:center;
 }
 
 /* message */
 
 .message-section{
   color: rgba(0, 0, 0, 0.6);
-  background-image: url("https://cdn.pixabay.com/photo/2019/07/03/16/38/light-bulb-4314993_1280.jpg");
+  background-image: url("light-bulb-4314993_1280.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -322,7 +322,7 @@ header{
 /* contact */
 
 .contact-section{
-  background: url("https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_1280.jpg")
+  background-image: url("plouzane-1758197_1280.jpg")
   background-size:cover;
   color: white;
 }
