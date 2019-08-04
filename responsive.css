@@ -1,0 +1,84 @@
+/* タブレット用　*/
+@media all and (max-width:1000px){
+  .index-btn{
+    margin:0 0;
+  }
+  .language-item h2{
+    font-size: 30px;
+  }
+  .language-item p{
+    font-size: 15px;
+  }
+  .price-column{
+    margin: 0 5px;
+  }
+  .price-column p{
+    font-size: 15px;
+  }
+}
+
+/* スマホ用　*/
+@@media all and (max-width:670px) {
+  .header-logo{
+    font-size: 10px;
+  }
+  .top-description h2{
+    font-size: 30px
+  }
+  .top-description P{
+    font-size: 13px;
+  }
+  .btn{
+    width:80%;
+  }
+  .section-title h3{
+    font-size: 20px;
+  }
+  .index-btn{
+    padding: 3px 5px;
+    font-size: 15px;
+    width:28%;
+  }
+  .language-item h2{
+    font-size: 25px;
+  }
+  .language-item p {
+    font-size: 12px
+  }
+  .features-box h5{
+    font-size: 15px;
+  }
+  .features-box{
+    font-size: 12px;
+  }
+  .message-section h4{
+    font-size: 10px;
+  }
+  .price-column p{
+    font-size: 10px;
+  }
+  .price-column h3{
+    font-size: 10px;
+  }
+  .price-column h2{
+    font-size: 18px;
+  }
+  .contact-form{
+    width:100%;
+  }
+  .contact-form h4{
+    font-size:15px;
+  }
+  .btn-contact{
+    width:100%;
+  }
+  .header-right{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+  a{
+    color: white;
+  }
+}
