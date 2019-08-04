@@ -19,7 +19,7 @@ $(function(){
     $('html,body').animate({
       $('html,body').animate({
         'scrollTop':feaPosition
-      },'slow);
+      },'slow');
     });
 
     $('.scroll-price').click(function(){
@@ -28,8 +28,17 @@ $(function(){
       $('html,body').animate({
         $('html,body').animate({
           'scrollTop':pricePosition
-        },'slow);
+        },'slow');
       });
+
+     $('.scroll-contact').click(function(){
+       var contactId=$(this).attr('href');
+       var contactPosition=$(contactId).offset().top;
+       $('html,body').animate({
+         'scrollTop':contactPosition
+       },'slow');
+     });
+
 
       $('.top-description').fadeIn(4000);
 
@@ -41,7 +50,7 @@ $(function(){
 
       $('.menu-icon').click(function(){
         var $menuicon = $('.menu-icon');
-        if ($menuicon.hasClass('menu-click')) {
+        if($menuicon.hasClass('menu-click')) {
           $maenuicon.removeClass('menu-click');
           $('.menu-list').fadeIn();
         } else {
